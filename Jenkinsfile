@@ -4,7 +4,7 @@ pipeline
  {
     node
     {
-    label 'workstation'
+    label 'rajesh_workstation'
     }
  }
   stages
