@@ -17,14 +17,12 @@ pipeline
         }
 
     }
-  Post
-  {
-    always
-    {
-        sh 'echo post steps'
-    }
   }
-
-  }
-
+   Post
+      {
+          always
+          {
+               sh 'echo post steps'
+          }
+      }
 }
