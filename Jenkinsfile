@@ -7,7 +7,7 @@ pipeline
     label 'rajesh_workstation'
     }
  }
-  enviornment
+  environment
   {
     env_var = "dev.example.com"
   }
